@@ -15,4 +15,23 @@
 body{
     font-family: "Open Sans", sans-serif;
 }
+header{
+    width: 100%;
+}
 
+/*Flex-utilities*/
+.d-flex{
+    display: flex;
+}
+.s-between{
+    justify-content: space-between;
+}
+.flex-end{
+    justify-content: flex-end;
+}
+.flex-start{
+    justify-content: flex-end;
+}
+#logo{
+    height: 50px;
+}
