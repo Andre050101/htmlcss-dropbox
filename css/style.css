@@ -34,17 +34,21 @@
 .bg-footer{
     background-color: var(--color-dark);
 }
+.bg-sez1{
+    background-color: var(--color-light-blue);
+}
 
 /*Containers*/
 .container{
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px 10px;
+    margin-inline:auto;
+    padding-inline: 20px;
 }
 
 .container-small{
     max-width: 1000px;
-    margin: 0 auto;
+    margin-inline:auto;
+    padding-inline: 20px;
 }
 
 /*Generals*/
@@ -55,7 +59,15 @@ body{
 header{
     width: 100%;
 }
+h1{
+    font-size: 4em;
+    font-weight: 800;
 
+}
+img{
+    width: 100%;
+    height: 100%;
+}
 /*Flex-utilities*/
 .d-flex{
     display: flex;
@@ -75,6 +87,13 @@ header{
 .a-it-center{
     align-items: center;
 }
+.a-it-fs{
+    align-items: flex-start;
+}
+.f-dir-column{
+    flex-direction: column;
+}
+
 #logo{
     padding: 15px 10px;
 }
@@ -129,4 +148,23 @@ select{
     border-style: none;
     color: white;
     opacity: 0.8;
+}
+
+#Section1{
+    padding-top: 100px;
+}
+
+
+.jumbo-pic{
+    width: 70%;
+}
+.jumbo-text{
+    width: 30%;
+}
+.img-position{
+    position: relative;
+    top: 40px;
+}
+.gap-30px{
+    gap:30px;
 }
