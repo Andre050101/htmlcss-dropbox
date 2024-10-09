@@ -4,3 +4,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*Debug class*/
+.debug{
+    border: 1px solid red;
+}
+
+/*Generals*/
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
