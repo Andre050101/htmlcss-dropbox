@@ -32,6 +32,24 @@ header{
 .flex-start{
     justify-content: flex-end;
 }
+.flex-grow{
+    flex-grow: 1;
+}
+.a-it-center{
+    align-items: center;
+}
 #logo{
-    height: 50px;
+    padding: 15px 10px;
+}
+
+ul{
+    list-style: none;
+}
+
+#lista1 li{
+    margin-left: 13px;
+}
+
+#lista2 li{
+    margin-right: 13px;
 }
