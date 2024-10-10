@@ -12,6 +12,11 @@
 .grey-border{
     border: 1px solid #d4d4d6;
 }
+.grey-border-2{
+    border-top: 1px solid #d4d4d6;
+    border-left: 1px solid #d4d4d6;
+    border-right: 1px solid #d4d4d6;
+}
 
 /*Colors*/
 :root{
@@ -227,7 +232,9 @@ select{
 .m-top12px{
     margin-top: 12px;
 }
-
+.p-btn-c-u-v{
+    padding: 13px 26px;
+}
 .box{
     width: 270px;
 }
@@ -271,3 +278,15 @@ select{
     padding: 10px 0;
 }
 
+.width-sx-enterprise{
+    width: 75%;
+}
+.width-dx-enterprise{
+    width: 25%;
+}
+.opacity{
+    opacity: 0.9;
+}
+.pdim{
+    font-size: 0.9em;
+}
