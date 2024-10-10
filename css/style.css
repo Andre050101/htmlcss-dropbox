@@ -103,9 +103,6 @@ img{
     flex-direction: column;
 }
 
-/*#logo{
-    padding: 15px 10px;
-}*/
 
 ul{
     list-style: none;
@@ -142,9 +139,7 @@ section div div h2{
 footer{
     color: white;
 }
-h3{
-    padding-bottom: 17px;
-} 
+
 footer div div ul li{
     font-size: small;
     padding-bottom: 8px;
@@ -159,6 +154,11 @@ footer div div p{
     opacity: 0.8;
     padding-left: 5px;
 }
+h3{
+    font-size:1.3em;
+
+}
+
 /*Select*/
 select{
     background-color: var(--Black-button);
@@ -182,7 +182,7 @@ select{
     position: relative;
     top: 40px;
 }
-.gap-30px{
+.gap-60px{
     gap: 60px;
 }
 
@@ -201,7 +201,29 @@ select{
 .padding-bottom{
     padding-bottom: 20px;
 }
+.p-bottom-17px{
+    padding-bottom: 17px;
+}
+.p-bottom-25px{
+    padding-bottom: 25px;
+}
+.p-bottom-50px{
+    padding-bottom: 50px;
+}
 
 .box{
     width: 270px;
+}
+.p-box{
+    padding: 20px 15px;
+}
+.font-size-euro{
+    font-size: 0.8em;
+}
+.opacity{
+    opacity: 0.7;
+}
+
+.p-right{
+    padding-right: 10px;
 }
