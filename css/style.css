@@ -291,6 +291,10 @@ select{
     padding-left: 20px;
     padding-right: 20px;
 }
+.p-l-r10px{
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 .width-sx-enterprise{
     width: 75%;
@@ -318,4 +322,7 @@ select{
 }
 .width33perc{
     width: calc(100% / 3);
+}
+.p-topbot-60px{
+    padding: 60px 0;
 }
