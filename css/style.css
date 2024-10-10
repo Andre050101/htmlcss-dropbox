@@ -316,3 +316,6 @@ select{
 .btn-white{
     padding: 8px 5px;
 }
+.width33perc{
+    width: calc(100% / 3);
+}
